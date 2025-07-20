@@ -3,25 +3,23 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 
 export const DATA = {
-  name: "Prathamesh Kothalkar",
+  name: "Nikhil Mahajan",
   initials: "Pro",
   url: "https://www.prathamesh-kothalkar.vercel.app",
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Software Developer | Full Stack Engineer | Student ",
-  summary:"I’m a third-year IT Engineering student at SPPU with practical experience in full-stack and backend development. As a Software Developer Intern at Arevei, I contributed to building scalable e-commerce solutions using React, Next.js, Node.js, and MongoDB. I’ve developed and deployed several real-world applications and solved 200+ DSA problems, demonstrating strong problem-solving skills and algorithmic thinking. I’m passionate about system design, distributed systems, and building efficient, user-centric products. Currently, I’m exploring blockchain and cloud-native development, with a long-term goal of joining a high-impact engineering team at a company like Google, where innovation, scale, and learning never stop.",
-  avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
+    "Software Developer | Full Stack Python Engineer | Student ",
+  summary:"I’m Nikhil Mahajan, a Python Full Stack Developer with hands-on experience in building scalable backend systems and dynamic web applications. I specialize in Django, Flask, FastAPI, and Serverless architectures, and have deployed robust APIs integrated with AWS Lambda, PostgreSQL, and asynchronous task queues like SQS.Currently interning at Banao Technologies, I’ve contributed to live projects with a focus on clean architecture, performance, and team collaboration. My project portfolio includes AI-driven platforms like a multi-agent resume screener and a stock price forecasting app using machine learning and interactive visualizations with Plotly.Beyond development, I actively write technical blogs, participate in hackathons, and continuously enhance my problem-solving skills through competitive programming. I’m passionate about delivering real-world software solutions that are efficient, intelligent, and user-friendly.",
+  avatarUrl: "https://i.ibb.co/kg5nDrLR/linkdin-Profile.png",
   skills: [
     "Java",
     "Python",
     "JavaScript",
     "C++",
-    "TypeScript",
     "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
+    "Django",
+    "Flask",
     "MongoDB",
     "MySQL",
     "PostgreSQL",
@@ -29,24 +27,26 @@ export const DATA = {
     "Material UI",
     "Git",
     "Docker",
-    "Android",
-    "Redis"
+    "Redis",
+    "Servless Framework",
+    "GenAI",
+    "Agentic AI"
   ],
   codingProfiles:[
     {
       name: "LeetCode",
-      url: "https://leetcode.com/u/prathamesh_kothalkar/",
+      url: "https://leetcode.com/u/nikhil0069/",
       icon: Icons.globe,
       badges: [
         {
-          title: "200+ problems solved",
+          title: "100+ problems solved",
           variant: "secondary",
         },
       ],
     },
     {
       name: "HackerRank",
-      url: "https://www.hackerrank.com/profile/prathameshkotha4",
+      url: "https://www.hackerrank.com/profile/mahajannikhil002",
       icon: Icons.globe,
       badges: [
         {
@@ -57,7 +57,7 @@ export const DATA = {
     },
     {
       name: "GitHub",
-      url: "https://github.com/Prathamesh-Kothalkar",
+      url: "https://github.com/NikhilMahajn",
       icon: Icons.globe,
       badges: [
         {
@@ -72,78 +72,66 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "prathameshkothalkar9021@gmail.com",
-    tel: "+91 9021023183",
+    email: "nikhilmahajn@gmail.com",
+    tel: "+91 8799948641",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Prathamesh-Kothalkar",
+        url: "https://github.com/NikhilMahajn",
         icon: Icons.github,
         navbar: true,
       },
       Resume: {
         name: "Resume",
-        url: "./Prathamesh_Resume_2027_SDE.pdf",
+        url: "./Nikhil_Mahajan_backend_resume.pdf",
         icon: Icons.googleDrive,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/prathamesh-kothalkar/",
+        url: "https://www.linkedin.com/in/nikhiljmahajan/",
         icon: Icons.linkedin,
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://twitter.com/Prathamesh_Koth",
-        icon: Icons.x,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:prathameshkothalkar9021@gmail.com",
+        url: "mailto:nikhilmahajan0016@gmail.com",
         icon: Icons.email,
         navbar: true,
       },
+      Medium:{
+        name: "Medium",
+        url: "https://medium.com/@mahajannikhil0016",
+        icon: Icons.medium,
+        navbar: true,
+      }
     },
   },
   work: [
     {
-      company: "Arevei",
-      href: "https://arevei.com",
+      company: "Banao Techologies",
+      href: "https://banao.tech/",
       badges: [],
       location: "Remote",
       title: "SDE Intern",
-      logoUrl: "/arevei.png",
-      start: "Aug 2024",
-      end: "May 2025",
-      description:
-        "Contributing to the development of an e-commerce platform. Building frontend pages using React and Tailwind CSS. Developing backend functionalities using Node.js and MongoDB including cart, order, and payment systems. Implemented Razorpay integration and admin panel with dynamic slide management.",
-    },
-    {
-      company: "Google Developer Group on Campus",
-      href: "https://gdg.community.dev/gdg-on-campus-zcoer/",
-      badges: [],
-      location: "Pune, Maharashtra",
-      title: "Core Team Member (WEB)",
-      logoUrl: "/gdg.svg",
-      start: "Oct 2024",
+      logoUrl: "/banao_logo.jpeg",
+      start: "Apr 2025",
       end: "Present",
       description:
-        "Currently developing the official website for GDG on Campus ZCOER. Responsible for building frontend pages using Nextjs and Tailwind CSS and developing backend services with Node.js and MongoDB. Features include event listings, team showcase, and admin tools for dynamic content management. Also contributed to payment integration and secure form handling.",
-    },    
+        "At Banao Technologies, I worked as a Software Developer Intern where I designed and deployed scalable backend APIs using the Serverless Framework and AWS Lambda. I contributed to two live production projects, integrating AWS SQS for asynchronous task handling and boosting workflow efficiency by 40%. I leveraged SQLAlchemy to build efficient data models and managed complex queries on PostgreSQL. My role also involved collaborating closely with frontend and design teams to deliver high-performance, maintainable backend solutions aligned with product goals.",
+    },
     {
-      company: "Passion Softwares",
+      company: "Heuristic Technopark",
+      href: "https://gdg.community.dev/gdg-on-campus-zcoer/",
       badges: [],
-      href: "https://www.linkedin.com/company/passion-softwares/",
-      location: "Remote",
-      title: "Full Stack Java Trainee",
-      logoUrl: "/passion.jpg",
+      location: "Nashik, Maharashtra",
+      title: "Python/Django Intern",
+      logoUrl: "/heuristic.jpeg",
       start: "Jan 2024",
       end: "Mar 2024",
       description:
-        "Built full-stack web applications using Java, Spring Boot, and MySQL. Gained experience in MVC architecture and RESTful API development. Worked on several hands-on assignments and completed final assessment with top feedback.",
-    },
+        "During my internship at Heuristic Technopark, I developed RESTful APIs using Django REST Framework, improving API performance and reducing server response time by 40%. I optimized database interactions, resulting in a 15% reduction in server costs. My work emphasized secure, scalable backend development and involved debugging issues, enhancing features, and supporting production deployments. The experience helped solidify my foundation in Django, REST principles, and cross-functional collaboration.",
+    },    
   ],
   education: [
     {
@@ -165,26 +153,24 @@ export const DATA = {
   ],
   projects: [
      {
-      title: "College Recommendation System with GEN AI",
-      href: "https://www.guessmycollege.in/",
-      dates: "May 2025",
+      title: "AI Recruiter",
+      href: "https://ai-recruiter-2q18.onrender.com/",
+      dates: "Mar 2025",
       active: true,
      description:
-  "An AI-powered college recommendation platform for MHT-CET aspirants. Leveraging GenAI (Gemini) for real-time college summaries and Redis for fast caching of summary results. Integrated with ProgramerAPI to fetch live college data. Within 4 days of launch, it crossed 2K+ visitors, 13K+ page views, and 1.1K+ form submissions.",
+  "AI Recruiter is a modular recruitment automation platform built with Flask, LangChain, LangGraph, FAISS, and HuggingFace Transformers. It automates resume parsing, job matching, and candidate scoring using multi-agent workflows and vector similarity search. The system includes resume parsing, job description summarization, and a scoring pipeline stored in SQLite. It reduced manual screening time by 75%, improved candidate-job matching accuracy by 80%, and enhanced hiring efficiency by 65% for small to mid-sized teams.",
       technologies: [
-        "TypeScript",
-        "Next.js (ts)",
-        "Node.js (ts)",
-        "PostgreSQL",
-        "Prisma ORM",
-        "Redis",
-        "GenAI (Gemini)",
-        "Tailwind CSS",
+        "Python",
+        "Flask (Python)",
+        "LangGraph",
+        "LangChain",
+        "Sqlite",
+        "Groq API"
       ],
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/rankwise",
+          href: "https://github.com/NikhilMahajn/AI-Recruiter.git",
           icon: <Icons.github className="size-3" />,
         },
         {
@@ -193,146 +179,66 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "/gmc.png",
+      image: "/ai_recruiter.png",
     },
      {
-      title: "Collaborative Real-Time Whiteboard Application",
-      href: "https://github.com/Prathamesh-Kothalkar/realtime-whiteboard",
-      dates: "May 2025",
-      active: true,
-      description:
-        "Designed and developed a fully responsive real-time collaborative whiteboard application using React and Fabric.js, enabling multiple users to draw, annotate, and interact simultaneously.",
-      technologies: [
-        "TypeScript",
-        "React.js (ts)",
-        "Node.js (ts)",
-        "fabric.js",
-        "Socket.io",
-        "Bootstrap",
-        "Keycloak",
-        
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/realtime-whiteboard",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Video",
-          href: "https://github.com/user-attachments/assets/b2e1bbb1-ab7b-4b99-88fc-e77f687d71d5",
-          icon: <Icons.youtube className="size-3" />,
-        }
-      ],
-      image: "/whiteboard.gif",
-    },
-    {
-      title: "Support Desk",
-      href: "https://support-desk-student.vercel.app/",
-      dates: "Apr 2025 - May 2025",
-      active: true,
-      description:
-        "A student-focused support ticketing system built to streamline communication with staff members. Students can raise tickets, view ticket status, and get real-time updates. Designed with an intuitive UI and secure authentication.",
-      technologies: [
-        "Next.js",
-        "Node.js",
-        "MongoDB",
-        "Tailwind CSS",
-        "Mongoose",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/Support-Desk-Student",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Website",
-          href: "https://support-desk-student.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "/Student.png",
-    },
-    {
-      title: "Support Desk (Admin)",
-      href: "https://support-desk-staff.vercel.app/",
-      dates: "Apr 2025 - May 2025",
-      active: true,
-      description:
-        "An admin dashboard for managing student support tickets. Enables staff to view, respond to, and resolve tickets efficiently. Includes role-based access, ticket assignment, and system insights for improved support management.",
-      technologies: [
-        "Next.js",
-        "Node.js",
-        "MongoDB",
-        "Tailwind CSS",
-        "Mongoose",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/Support-Desk-Staff",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Website",
-          href: "https://support-desk-staff.vercel.app/dashboard",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "/Admin.png",
-    },
-    
-    ,{
-      title: "E-Commerce Web App",
-      href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
-      dates: "Jul 2023 - Jul 203",
-      active: true,
-      description:
-        "Developed a e-commerce frontend using React.js Where user allows to add or remove product from Cart. As well as Used react toastify for notifiying user also create a Bill Board component which calculate item and prices.",
-      technologies: [
-        "Next.js",
-        "Node.js",
-        "MongoDB",
-        "Express.js",
-        "Razorpay",
-        "Tailwind CSS",
-        "Mongoose",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/Prathamesh-Kothalkar/Shooppey",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Website",
-          href:"https://shoppei.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "/ecom.png",
-      video: "",
-    },
-    {
-      title: "Full Stack Wallet App",
-      href: "https://github.com/Prathamesh-Kothalkar/paytm-app",
-      dates: "Sep 2024",
+      title: "Stock Predictor WebApp",
+      href: "https://stock-price-forcasting.onrender.com/",
+      dates: "Oct 2024",
       active: false,
       description:
-        "Developed a full stack app Where user can send and recive money. While developing project understand the ' Session in MongoDb' ,Sessions enable causal consistency for a group of operations or allow you to execute operations in an ACID transaction.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Tailwind CSS"],
+        "Stock Price Forecasting WebApp is a Django-based application that enables users to analyze and forecast stock prices for any ticker using machine learning models. The app achieved a prediction accuracy of 87% and uses Plotly to generate interactive visualizations of stock market trends, enhancing data clarity and user engagement. Optimized data pipelines reduced prediction time by 60%, and trend analysis efficiency improved by 70%, enabling faster, data-driven investment decisions."
+,
+      technologies: [
+      "Python",
+      "Django",
+      "Machine Learning (scikit-learn)",
+      "Pandas",
+      "NumPy",
+      "Plotly",
+      "yfinance",
+      "HTML/CSS",
+      "JavaScript",
+      "Bootstrap"
+    ],
       links: [
         {
-          type:"Github",
-          href: "https://github.com/Prathamesh-Kothalkar/paytm-app",
+          type: "GitHub",
+          href: "https://github.com/NikhilMahajn/Stock-Price-Forcasting",
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "/paytm.gif",
-      video: "",
+      image: "/stock.png",
     },
-  ],
+    {
+      title: "MultiPDF AI ChatBot",
+      href: "https://huggingface.co/spaces/NikhilMahajan/Multi-PDF-AI-Agent",
+      dates: "Apr 2025 - May 2025",
+      active: true,
+      description:
+        "Multi-PDF AI Chatbot Agent is an AI-powered application that enables users to upload multiple PDF documents and interact with them through natural language queries. Built using LangChain, LangGraph, FAISS, and Streamlit, the chatbot supports multi-agent coordination for context-aware question answering, document summarization, and intelligent information retrieval. Integrated vector embeddings allow for semantic understanding across documents, enhancing research, legal, and enterprise workflows.",
+      technologies: [
+        "Streamlit",
+        "Groq API",
+        "FAISS",
+        "HuggingFace",
+        "LangChain",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/NikhilMahajn/Mulit-PDF-AI-Chatbot-Agent",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://huggingface.co/spaces/NikhilMahajan/Multi-PDF-AI-Agent",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/chatbot.png",
+    },
+    ],
   hackathons: [
     {
       title: "Intra-College Hackathon 2024",
