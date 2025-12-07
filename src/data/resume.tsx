@@ -39,7 +39,7 @@ export const DATA = {
       icon: Icons.globe,
       badges: [
         {
-          title: "100+ problems solved",
+          title: "200+ problems solved",
           variant: "secondary",
         },
       ],
@@ -116,7 +116,7 @@ export const DATA = {
       title: "SDE Intern",
       logoUrl: "/banao_logo.jpeg",
       start: "Apr 2025",
-      end: "Present",
+      end: "Oct 2025",
       description:
         "At Banao Technologies, I worked as a Software Developer Intern where I designed and deployed scalable backend APIs using the Serverless Framework and AWS Lambda. I contributed to two live production projects, integrating AWS SQS for asynchronous task handling and boosting workflow efficiency by 40%. I leveraged SQLAlchemy to build efficient data models and managed complex queries on PostgreSQL. My role also involved collaborating closely with frontend and design teams to deliver high-performance, maintainable backend solutions aligned with product goals.",
     },
@@ -152,6 +152,35 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "LearnLabs - AI Course Website",
+      href: "https://learn-labs-fe.vercel.app/",
+      dates: "Dec 2025",
+      active: true,
+     description:
+  "LearnLabs is an AI-driven learning platform that generates personalized courses, tutorials, and developer roadmaps based on any topic or technology. Users can search for subjects like React, Python, CSS, Node.js, or complete learning paths such as Frontend and Backend Development. The platform delivers structured lessons, beginner-friendly explanations, and step-by-step roadmaps to help learners build tech skills efficiently.",
+      technologies: [
+        "React",
+        "Fast API (Python)",
+        "LangChain",
+        "Groq API",
+        "PostgresSQL",
+        "Redis"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/NikhilMahajn/LearnLabs-fe",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://learn-labs-fe.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/learnlabs.png",
+    },
      {
       title: "AI Recruiter",
       href: "https://ai-recruiter-2q18.onrender.com/",
