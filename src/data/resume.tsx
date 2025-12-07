@@ -83,7 +83,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "./Nikhil_Mahajan_backend_resume.pdf",
+        url: "./backend_resume.pdf",
         icon: Icons.googleDrive,
         navbar: true,
       },
