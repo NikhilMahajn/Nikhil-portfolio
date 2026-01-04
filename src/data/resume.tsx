@@ -204,7 +204,7 @@ export const DATA = {
         },
         {
           type: "Website",
-          href: "https://www.guessmycollege.in/",
+          href: "https://ai-recruiter-2q18.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         }
       ],
