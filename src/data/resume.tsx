@@ -158,12 +158,13 @@ export const DATA = {
       dates: "Jan 2026",
       active: true,
      description:
-  "LearnLabs is an AI-driven learning platform that generates personalized courses, tutorials, and developer roadmaps based on any topic or technology. Users can search for subjects like React, Python, CSS, Node.js, or complete learning paths such as Frontend and Backend Development. The platform delivers structured lessons, beginner-friendly explanations, and step-by-step roadmaps to help learners build tech skills efficiently.",
+  "Built a production-grade banking application supporting Admin, Employee, and Customer roles, with secure authentication and role-based access control. Developed REST APIs for account creation, deposits, withdrawals, transfers, and transaction history, backed by a fully normalized PostgreSQL database. Integrated JWT security with BCrypt, enforcing restricted access across user roles. Implemented input validation, balance checks, and error handling to ensure robust financial workflows. Packaged the application using Docker for portable deployment and demonstrated end-to-end workflows with real-world banking logic.",
       technologies: [
         "Next.1s",
         "Spring-boot",
         "AWS RDS",
-        "Docker"
+        "Docker",
+        "JWT & Spring security"
       ],
       links: [
         {
