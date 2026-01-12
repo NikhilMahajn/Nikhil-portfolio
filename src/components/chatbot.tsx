@@ -13,7 +13,7 @@ const PortfolioChatbot = () => {
   const [messages, setMessages] = useState([
     {
       role: "assistant",
-      content: `Hi! I"m an AI assistant that knows all about ${DATA.name.split(" ")[0]}"s background and experience. Ask me anything about their skills, projects, education, or work experience!`
+      content: `Hi! I&apos;m an AI assistant that knows all about ${DATA.name.split(" ")[0]}&apos;s background and experience. Ask me anything about their skills, projects, education, or work experience!`
     }
   ]);
   const [input, setInput] = useState("");
@@ -45,7 +45,7 @@ const PortfolioChatbot = () => {
   }, [isOpen]);
 
   const createSystemPrompt = () => {
-    return `You are a helpful AI assistant for ${DATA.name}"s portfolio website. Your role is to answer questions about their background, skills, experience, and projects based on the following information:
+    return `You are a helpful AI assistant for ${DATA.name}&apos;s portfolio website. Your role is to answer questions about their background, skills, experience, and projects based on the following information:
 
 NAME: ${DATA.name}
 DESCRIPTION: ${DATA.description}
@@ -69,10 +69,10 @@ LinkedIn: ${DATA.contact.social.LinkedIn.url}
 Guidelines:
 - Be friendly, professional, and concise
 - Only answer based on the information provided above
-- If asked about something not in the data, politely say you don"t have that information
+- If asked about something not in the data, politely say you don&apos;t have that information
 - Encourage visitors to reach out via LinkedIn or email for more details
 - Keep responses under 150 words unless more detail is specifically requested
-- Use a conversational tone that reflects ${DATA.name.split(" ")[0]}"s professional personality`;
+- Use a conversational tone that reflects ${DATA.name.split(" ")[0]}&apos;s professional personality`;
   };
 
   const sendMessage = async () => {
@@ -155,7 +155,7 @@ Guidelines:
           {/* Header */}
           <div className="bg-blue-600 text-white p-4 rounded-t-lg">
             <h3 className="font-semibold text-lg">Chat with AI Assistant</h3>
-            <p className="text-sm text-blue-100">Ask me about {DATA.name.split(" ")[0]}"s portfolio</p>
+            <p className="text-sm text-blue-100">Ask me about {DATA.name.split(" ")[0]}&apos;s portfolio</p>
           </div>
 
           {/* Messages */}
