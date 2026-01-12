@@ -153,6 +153,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Banking System - Spring boot + Next.js",
+      href: "https://bank-system-fe-seven.vercel.app/",
+      dates: "Jan 2026",
+      active: true,
+     description:
+  "LearnLabs is an AI-driven learning platform that generates personalized courses, tutorials, and developer roadmaps based on any topic or technology. Users can search for subjects like React, Python, CSS, Node.js, or complete learning paths such as Frontend and Backend Development. The platform delivers structured lessons, beginner-friendly explanations, and step-by-step roadmaps to help learners build tech skills efficiently.",
+      technologies: [
+        "Next.1s",
+        "Spring-boot",
+        "AWS RDS",
+        "Docker"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/NikhilMahajn/bank-management-system",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Website",
+          href: "https://bank-system-fe-seven.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/bank_dashboard.png",
+    },
+    {
       title: "LearnLabs - AI Course Website",
       href: "https://learn-labs-fe.vercel.app/",
       dates: "Dec 2025",
