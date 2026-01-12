@@ -11,7 +11,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import PortfolioChatbot from "@/components/chatbot";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -264,6 +264,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      <PortfolioChatbot/>
     </main>
   );
 }

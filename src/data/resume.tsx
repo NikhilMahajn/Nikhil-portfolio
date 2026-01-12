@@ -72,7 +72,7 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "nikhilmahajn@gmail.com",
+    email: "mahajannikhil0016@gmail.com",
     tel: "+91 8799948641",
     social: {
       GitHub: {
