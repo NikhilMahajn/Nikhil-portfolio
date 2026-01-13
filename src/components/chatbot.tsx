@@ -18,8 +18,9 @@ const PortfolioChatbot = () => {
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const messagesEndRef = useRef(null);
-  const inputRef = useRef(null);
+  const messagesEndRef = useRef<HTMLDivElement | null>(null);
+  const inputRef = useRef<HTMLInputElement | null>(null);
+
 
   // Open chatbot with animation on mount
   useEffect(() => {
@@ -124,7 +125,7 @@ Guidelines:
     }
   };
 
-  const handleKeyPress = (e) => {
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       sendMessage();
