@@ -156,7 +156,9 @@ Guidelines:
           {/* Header */}
           <div className="bg-blue-600 text-white p-4 rounded-t-lg">
             <h3 className="font-semibold text-lg">Chat with AI Assistant</h3>
-            <p className="text-sm text-blue-100">Ask me about {DATA.name.split(" ")[0]}'s portfolio</p>
+            <p className="text-sm text-blue-100">
+              {"Ask me about " + DATA.name.split(" ")[0] + "'s portfolio"}
+            </p>
           </div>
 
           {/* Messages */}
