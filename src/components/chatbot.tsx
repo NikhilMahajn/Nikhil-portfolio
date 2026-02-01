@@ -63,7 +63,7 @@ ${DATA.education.map(e => `- ${e.degree} from ${e.school} (${e.start} - ${e.end}
 PROJECTS:
 ${DATA.projects.map(p => `- ${p.title}: ${p.description}. Technologies: ${p.technologies?.join(", ")}`).join("\n")}
 
-CONTACT:
+CONTACT: +91 8799948641
 Email: ${DATA.contact.email}
 LinkedIn: ${DATA.contact.social.LinkedIn.url}
 

@@ -160,7 +160,7 @@ export const DATA = {
      description:
   "Built a production-grade banking application supporting Admin, Employee, and Customer roles, with secure authentication and role-based access control. Developed REST APIs for account creation, deposits, withdrawals, transfers, and transaction history, backed by a fully normalized PostgreSQL database. Integrated JWT security with BCrypt, enforcing restricted access across user roles. Implemented input validation, balance checks, and error handling to ensure robust financial workflows. Packaged the application using Docker for portable deployment and demonstrated end-to-end workflows with real-world banking logic.",
       technologies: [
-        "Next.1s",
+        "Next.js",
         "Spring-boot",
         "AWS RDS",
         "Docker",
