@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { SiLeetcode} from "react-icons/si";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 
@@ -91,6 +92,12 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/nikhiljmahajan/",
         icon: Icons.linkedin,
+        navbar: true,
+      },
+      leetcode: {
+        name: "Leetcode",
+        url: "https://leetcode.com/u/Nikhil0069/",
+        icon: SiLeetcode,
         navbar: true,
       },
       email: {
