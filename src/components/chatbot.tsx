@@ -25,12 +25,11 @@ const PortfolioChatbot = () => {
   // Open chatbot with animation on mount
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsOpen(true);
       setIsVisible(true);
     }, 1000);
     return () => clearTimeout(timer);
   }, []);
-
+  
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
